@@ -58,6 +58,7 @@
             this.sendButton.TabIndex = 2;
             this.sendButton.Text = "Sign and Send";
             this.sendButton.UseVisualStyleBackColor = true;
+            this.sendButton.Click += new System.EventHandler(this.sendButton_Click);
             // 
             // MainWindow
             // 
